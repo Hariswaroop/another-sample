@@ -16,6 +16,12 @@ group :development, :test do
   gem 'rspec-rails','2.10.0'
 end
 
+group :test do
+  gem 'capybara', '1.1.2'
+  gem 'rb-inotify', '0.8.8'
+  gem 'libnotify', '0.5.9'
+end 
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
